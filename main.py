@@ -22,8 +22,8 @@ bme = bme280.BME280(i2c=i2c)
 
 led = machine.Pin("LED", machine.Pin.OUT)
 
-ssid = "wlan.Gen-Chan-2"
-password = "1Klavier"
+ssid = "" // insert SSID
+password = "" // insert PW
 
 while True:
     wlan = network.WLAN(network.STA_IF)
