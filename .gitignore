@@ -10,3 +10,4 @@ Weatherstation.FCStd1
 .vscode/settings.json
 script/.vscode/settings.json
 script/.vscode/extensions.json
+.gitignore
